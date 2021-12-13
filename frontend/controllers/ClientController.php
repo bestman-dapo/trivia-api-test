@@ -32,7 +32,7 @@ class ClientController extends \yii\rest\Controller
                 // $time_ended = date("Y-m-d H:i:s");
             // $client = str_split($client, 43)[0];
 
-           
+            
             
             $db = Yii::$app->db;
             $users = $db->createCommand( sql: "SELECT * FROM user WHERE username = :username")
