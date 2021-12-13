@@ -41,9 +41,7 @@ class ClientController extends \yii\rest\Controller
             ->bindValue(':username',  $username)
             ->queryAll();
 
-            // echo '<pre>';
-            // echo $users[0]['verification_token'];
-            // echo '</pre';
+            
 
             if ($client == $users[0]['verification_token']) {
 
