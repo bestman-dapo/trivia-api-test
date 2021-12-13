@@ -77,7 +77,7 @@ class ClientController extends \yii\rest\Controller
                 $result = curl_exec($ch);
 
                 
-                return $result;
+                var_dump($result) ;
                 
                 
                 
