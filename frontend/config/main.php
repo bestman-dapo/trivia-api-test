@@ -42,7 +42,7 @@ return [
             'showScriptName' => false,
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'score'],
-                ['class' => 'yii\rest\UrlRule', 'controller' => ['getquiz' => 'client']],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'client'],
                 ['class' => 'yii\rest\UrlRule', 'controller' => ['userdata' => 'user']],
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'candidate'],
                 
