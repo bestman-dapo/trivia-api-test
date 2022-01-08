@@ -46,6 +46,10 @@ return [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'client'],
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'candidate'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'token'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'createuser'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'login'],
+                ['class' => 'yii\rest\UrlRule', 'controller' => 'getquiz'],
                 
             ],
         ],
